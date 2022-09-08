@@ -116,6 +116,10 @@ body {
   justify-content: space-between;
 }
 
+.main, .introduction, .footer {
+    color: white;
+    }
+
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
@@ -124,6 +128,7 @@ body {
   background-color: #99b3e6;
   height: 300px;
   padding: 15px;
+  margin: 15 0 15 0;
   display: flex;
   width: 33%;
   justify-content: center;
@@ -135,6 +140,9 @@ body {
     border-right: 3px solid white;
 }
 
+.footer {
+    margin: 15px;
+}
 
 
 
